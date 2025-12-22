@@ -48,7 +48,30 @@ export default function Home() {
           ></div>
         </div>
         <div className="display_summary_container">
-          <div className="display_summary">SUMMARY</div>
+          <div className="display_summary">
+            <div className="summary_content">
+              <div className="summary_row">
+                <span className="summary_label">Total Neto</span>
+                <span className="summary_value">$161.49</span>
+              </div>
+              <div className="summary_row">
+                <span className="summary_label">Descuento</span>
+                <span className="summary_value summary_discount">-$16.15</span>
+              </div>
+              <div className="summary_row">
+                <span className="summary_label">Subtotal</span>
+                <span className="summary_value">$145.34</span>
+              </div>
+              <div className="summary_row">
+                <span className="summary_label">ITBMS (7%)</span>
+                <span className="summary_value">$10.17</span>
+              </div>
+              <div className="summary_total_row">
+                <span className="summary_total_label">TOTAL</span>
+                <span className="summary_total_value">$155.51</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

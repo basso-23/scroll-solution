@@ -42,7 +42,10 @@ export default function Home() {
       </div>
       <div className="display_right_container">
         <div className="display_logo_container">
-          <div className="display_logo">LOGO</div>
+          <div
+            className="display_logo logo_image"
+            style={{ backgroundImage: "url('/piopio.png')" }}
+          ></div>
         </div>
         <div className="display_summary_container">
           <div className="display_summary">SUMMARY</div>

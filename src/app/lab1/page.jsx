@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Lab1() {
   return (
     <div className="main_container">
       <div className="display_left_container">
@@ -66,11 +66,11 @@ export default function Home() {
                 <span className="summary_label">ITBMS (7%)</span>
                 <span className="summary_value">$10.17</span>
               </div>
-              <div className="summary_total_row">
-                <span className="summary_total_label">TOTAL</span>
-                <span className="summary_total_value">$155.51</span>
-              </div>
             </div>
+          </div>
+          <div className="summary_total_row">
+            <span className="summary_total_label">TOTAL</span>
+            <span className="summary_total_value">$155.51</span>
           </div>
         </div>
       </div>

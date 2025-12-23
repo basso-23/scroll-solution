@@ -10,28 +10,57 @@ export default function Lab1() {
 
           {/* Contenedor scrollable que ocupa el espacio restante */}
           <div className="display_products_content">
-            <div className="table_headers">PRODUCTO</div>
+            <div className="table_headers">
+              <div className="producto_header">PRODUCTO</div>
+              <div className="cantidad_header">CANTIDAD</div>
+              <div className="precio_header">PRECIO</div>
+            </div>
             <div className="scrollable_container">
-              <div className="scrollable_item">Item 1</div>
-              <div className="scrollable_item">Item 2</div>
-              <div className="scrollable_item">Item 3</div>
-              <div className="scrollable_item">Item 4</div>
-              <div className="scrollable_item">Item 5</div>
-              <div className="scrollable_item">Item 6</div>
-              <div className="scrollable_item">Item 7</div>
-              <div className="scrollable_item">Item 8</div>
-              <div className="scrollable_item">Item 9</div>
-              <div className="scrollable_item">Item 10</div>
-              <div className="scrollable_item">Item 11</div>
-              <div className="scrollable_item">Item 12</div>
-              <div className="scrollable_item">Item 13</div>
-              <div className="scrollable_item">Item 14</div>
-              <div className="scrollable_item">Item 15</div>
-              <div className="scrollable_item">Item 16</div>
-              <div className="scrollable_item">Item 17</div>
-              <div className="scrollable_item">Item 18</div>
-              <div className="scrollable_item">Item 19</div>
-              <div className="scrollable_item">Item 20</div>
+              <div className="scrollable_item">
+                <div className="producto_header">Manazana roja</div>
+                <div className="cantidad_header summary_value">3</div>
+                <div className="precio_header summary_value">$1520.99</div>
+              </div>
+              <div className="scrollable_item">
+                <div className="producto_header">Manazana roja</div>
+                <div className="cantidad_header summary_value">3</div>
+                <div className="precio_header summary_value">$1520.99</div>
+              </div>
+              <div className="scrollable_item">
+                <div className="producto_header">Manazana roja</div>
+                <div className="cantidad_header summary_value">3</div>
+                <div className="precio_header summary_value">$1520.99</div>
+              </div>
+              <div className="scrollable_item">
+                <div className="producto_header">Manazana roja</div>
+                <div className="cantidad_header summary_value">3</div>
+                <div className="precio_header summary_value">$1520.99</div>
+              </div>
+              <div className="scrollable_item">
+                <div className="producto_header">Manazana roja</div>
+                <div className="cantidad_header summary_value">3</div>
+                <div className="precio_header summary_value">$1520.99</div>
+              </div>
+              <div className="scrollable_item">
+                <div className="producto_header">Manazana roja</div>
+                <div className="cantidad_header summary_value">3</div>
+                <div className="precio_header summary_value">$1520.99</div>
+              </div>
+              <div className="scrollable_item">
+                <div className="producto_header">Manazana roja</div>
+                <div className="cantidad_header summary_value">3</div>
+                <div className="precio_header summary_value">$1520.99</div>
+              </div>
+              <div className="scrollable_item">
+                <div className="producto_header">Manazana roja</div>
+                <div className="cantidad_header summary_value">3</div>
+                <div className="precio_header summary_value">$1520.99</div>
+              </div>
+              <div className="scrollable_item">
+                <div className="producto_header">Manazana roja</div>
+                <div className="cantidad_header summary_value">3</div>
+                <div className="precio_header summary_value">$1520.99</div>
+              </div>
             </div>
           </div>
         </div>
@@ -63,7 +92,7 @@ export default function Lab1() {
                 <span className="summary_value">$145.34</span>
               </div>
               <div className="summary_row">
-                <span className="summary_label">ITBMS (7%)</span>
+                <span className="summary_label">ITBMS</span>
                 <span className="summary_value">$10.17</span>
               </div>
             </div>
